@@ -66,6 +66,7 @@ dependencies {
             because("graphql-java 24.1 requires java-dataloader 5.0.0")
         }
     }
+    implementation(kotlin("stdlib"))
 }
 
 dependencyManagement {

@@ -1,1 +1,5 @@
-rootProject.name = "mpesa-scheduler"
+pluginManagement {
+    plugins {
+        kotlin("jvm") version "2.2.0"
+    }
+}

@@ -90,14 +90,16 @@ tasks.withType<Test> {
 
 // Configure Spring Boot main class for GraalVM native
 tasks.withType<org.springframework.boot.gradle.tasks.bundling.BootJar> {
-    mainClass.set("com.fintech.ApplicationKt")
+    mainClass.set("com.fintech.mpesascheduler.MpesaSchedulerApplicationKt")
 }
+
 
 // GraalVM Native Image configuration
 graalvmNative {
     binaries {
         named("main") {
-            mainClass.set("com.fintech.ApplicationKt")
+            mainClass.set("com.fintech.mpesascheduler.MpesaSchedulerApplicationKt")
         }
     }
 }
+

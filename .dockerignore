@@ -1,0 +1,24 @@
+# Gradle and build artifacts
+.gradle
+build/
+out/
+
+# IDE files
+.idea
+*.iml
+*.iws
+*.ipr
+.vscode/
+
+# Logs
+*.log
+hs_err_*.log
+replay_*.log
+
+# Environment files
+.env
+.env.*
+
+# OS-generated files
+.DS_Store
+Thumbs.db
